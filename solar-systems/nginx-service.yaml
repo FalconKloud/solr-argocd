@@ -9,4 +9,4 @@ spec:
   ports:
     - port: 80         # service port
       targetPort: 80   # container port
-      nodePort: 30080  # external port (optional; can omit to let k8s auto-assign within 30000-32767)
+      nodePort: 30081  # external port (optional; can omit to let k8s auto-assign within 30000-32767)
